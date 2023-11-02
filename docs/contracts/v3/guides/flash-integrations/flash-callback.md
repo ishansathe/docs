@@ -49,7 +49,7 @@ Code in a minimum amount out for both of the upcoming swaps, such that the follo
 
 ## Initiating A Swap
 
-Call the first of two swaps, calling `exactInputSingle` on the [**router interface**](../../reference/periphery/interfaces/ISwapRouter.md) contract. In this call, we are using the previously declared `amount0In` as the minimum amount out, and assigning the returned balance of the swap to `amountOut0`.
+Call the first of two swaps, calling `exactInputSingle` on the [**router interface**](../../reference/periphery/interfaces/ISwapRouter.md) contract. In this call, we are using the previously declared `amount0Min` as the minimum amount out, and assigning the returned balance of the swap to `amountOut0`.
 
 Most of These function arguments have already been discussed, except for two new introductions:
 
